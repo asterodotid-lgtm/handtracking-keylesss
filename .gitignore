@@ -1,0 +1,11 @@
+# Mengabaikan virtual environment
+venv/
+.venv/
+env/
+
+# Mengabaikan cache Python
+__pycache__/
+*.pyc
+
+# Mengabaikan file konfigurasi VS Code (opsional)
+.vscode/
