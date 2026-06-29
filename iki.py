@@ -18,8 +18,7 @@ cap.set(4, h_cam)
 
 PALM_IDS = [0, 5, 9, 13, 17]
 DEADZONE = 20
-PINCH_START = 35 
-
+PINCH_START = 25
 def get_fingers_status(hand_lms):
     # status[0]=Telunjuk, status[1]=Tengah, status[2]=Manis, status[3]=Kelingking
     tips = [8, 12, 16, 20]
